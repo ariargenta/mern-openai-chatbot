@@ -11,12 +11,12 @@ const Logo = () => {
                 marginRight: "auto",
                 gap: "8px",
             }}>
-            <Link to={"/"}>
+            <Link to={ "/" }>
                 <img
                     src="openai.svg"
                     alt="openai"
-                    width={"30px"}
-                    height={"30px"}
+                    width={ "30px" }
+                    height={ "30px" }
                     className="image-inverted"
                 />
             </Link>{" "}
